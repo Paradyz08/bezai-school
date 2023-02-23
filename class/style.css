@@ -1,0 +1,198 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.school-head-banner {
+    background-color: #cd811d;
+    display: flex;
+    padding: 8px;
+}
+
+.search-header_box {
+    display: flex;
+    margin-top: 12px;
+}
+
+.search-header_box img {
+    height: 12px;
+    margin-top: 4px;
+}
+
+.school-header_box {
+    background-color: #cd811d;
+    display: flex;
+    justify-content: space-evenly;
+    width: 85%;
+}
+
+.school-header_boxes {
+    list-style: none;
+    display: flex;
+    padding: 8px;
+}
+
+.school-header_boxes a {
+    text-decoration: none;
+    color: #00ffc8;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.school-header_boxes a:active,
+.school-header_boxes a:hover {
+    color:#b700ff;
+    background-color:#f7c5fc;
+    border-radius: 50%;
+}
+
+.enrol-box {
+    list-style: none;
+}
+
+.enrol-box a{
+    text-decoration: none;
+    color: #621780;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    background-image: url(img/advert.png);
+    background-size: 5rem;
+    padding: 8px;
+    border-radius: 50%;
+    box-shadow: 4px 3px 4px #81b8ac;
+}
+
+.school-profile {
+    background-color: #f7c5fc;
+    display: flex;
+}
+
+.basicone-profile_box {
+    background-color: #5a0707;
+    width: 50%;
+    margin: 8px auto;
+    list-style: none;
+    padding: 4px;
+}
+
+.basicone-top-box {
+    background-color: #00ffc8;
+    border: 2px solid #020241;
+    margin: 0 auto;
+    width: 50%;
+}
+
+.basicone-top-box p {
+    color: #5a0707;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 900;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.basicone-mid-box p {
+    color: #81b8ac;
+    text-align: center;
+    padding: 8px;
+    font-size: 20px;
+}
+
+.pupils-profile {
+    padding: 128px;
+    border: 2px solid #00ffc8;
+    background-color: #fff;
+    border-radius: 80%;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.school-profiles {
+    margin: 0 auto;
+    width: 85%;
+    border: 2px solid #fcf810;
+    color: #020241;
+    background-color: #b45757;
+    padding: 16px;
+    border-bottom-left-radius: 15%;
+    border-bottom-right-radius: 15%;
+    border-top-left-radius: 15%;
+    border-top-right-radius: 15%;
+}
+
+.lower-school_box {
+    background-color: #5a0707;
+    display: flex;
+    justify-content: center;
+}
+
+.lower-school_box p {
+    width: 25%;
+    margin: auto;
+    color: #f7c5fc;
+    font-weight: 900;
+    font-size: 24px;
+}
+
+.footer-box {
+    display: flex;
+    list-style: none;
+    width: 70%;
+}
+
+.head-footer_box {
+    border-right: 2px solid #00ffc8;
+    border-left: 2px solid #00ffc8;
+    padding: 8px;
+    width: 30%;
+    text-align: center;
+}
+
+.footer-boxes {
+    border: 2px solid #f7c5fc;
+    padding: 8px; 
+    margin: 16px;
+}
+
+.footer-boxes a {
+    text-decoration: none;
+    color: #81b8ac;
+    font-size: 16px;
+    font-weight: 900;
+}
+
+.footer-boxes:active,
+.footer-boxes:hover {
+    background-color: #81b8ac;
+    border: 2px solid #020241;
+}
+
+.footer-boxes a:active, 
+.footer-boxes a:hover {
+    color: #5a0707;
+}
+
+.bottom-footer_box {
+    border-left: 2px solid #fcf810;
+    border-right: 2px solid #fcf810;
+    width: 30%;
+    text-align: center;
+    margin: auto;
+}
+
+.bottom-enrol_box {
+    width: 30%;
+    text-align: center;
+    margin: auto;
+    padding: 18px;
+    border-left: 2px solid #f7c5fc;
+    border-right: 2px solid #f7c5fc;
+}
+
+.bottom-enrol_box a {
+    text-decoration: none;
+    background: radial-gradient( #e4e43c, #b45757, #020241);
+    color: #5a0707;
+    padding: 12px;
+}
